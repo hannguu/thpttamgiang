@@ -1,0 +1,423 @@
+
+body,html
+{
+    background-color: rgb(247, 255, 196);
+    width: 100%;
+    overflow-x: hidden; 
+    background-position: left top;
+    color: #242B2D;
+    margin: 0 auto;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    min-height: 500px;
+    
+}
+
+
+.in_header
+{
+    background-color: rgb(255, 52, 146);
+    height: 260px;
+    
+    margin-top: 0;
+    padding-top: 5px;
+    
+}
+
+.headerslide img 
+{
+width: 90%;
+display: block;
+margin: 0 auto;
+height: 200px;
+margin-left: 0;
+padding-bottom: 20px;
+border-image-width: 10px 10px;
+
+}
+ol, ul {
+    list-style: none;
+}
+.menutitle{
+    list-style-image: url(imgs/arrow-bg.png);
+}
+.left .danhmuc ul li {
+    min-height: 15px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding-right: 0;
+   
+
+    
+}
+.logo
+{
+   padding-left: 5%;
+    margin-right: 0;
+    
+    padding:0;
+}
+   
+
+.danhngon
+{
+    margin-top: 5px;
+    color: white;
+    font-style: italic;
+    font-size: larger;
+    margin-left: 40%;
+}
+.header-top
+{
+    display: flex;
+}
+.container{
+    margin-top: 10px;
+}
+
+.left .lienket a .image {
+    margin-top: 5px;
+}
+
+.left .lienket img {
+    margin-top: 5px;
+    width: 100%;
+}
+
+
+.fl {
+    float: left;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+aside {
+    display: block;
+}
+.left .tit_danhmuc {
+    
+    height: 58px;
+    margin-left: 20%;
+}
+
+.left .danhmuc {
+    -webkit-box-shadow: 1px 1px 1px 0px #999;
+    box-shadow: 1px 1px 1px 0px #999;
+    background: url(/imgs/bg_tit_danhmuc.png) no-repeat top center;
+    background-color: #F5D2E0;
+    color: #fff;
+    padding-bottom: 2px;
+}
+.left .danhmuc {
+    margin-bottom: 10px;
+   margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+div {
+    display: block;
+}
+
+.left .danhmuc ul li {
+    min-height: 15px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-top: 5px;
+    color: black;
+}
+.left .fl .col-md-4
+{
+    width: 30%;
+}
+.center .fl .brt .col-md-4
+{
+    width: 30%;
+    padding:0%;
+}
+a
+{
+    color: black;
+}
+
+
+.image-day-hoc img
+{
+    width: 90%;
+}
+.lienket img
+{
+    width: 100%;
+}
+.thuvien 
+{
+    -webkit-box-shadow: 1px 1px 1px 0px #999;
+    box-shadow: 1px 1px 1px 0px #999;
+    background: url(/imgs/danhmuc.png) no-repeat top left;
+    background-color: #F5D2E0;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    border-bottom: solid white 1px;
+    font-weight: bold;
+  
+}
+.thuvien ul li {
+    min-height: 15px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-top: 5px;
+    color: black;
+    font-weight: bold;
+}
+.tit_thuvien h4
+{
+ text-align: center;
+}
+.title1
+{
+    height: 30px;
+   
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+  background: url(/imgs/center_contend.png) no-repeat top left ;
+    
+}
+.title1 p
+{
+    color: #FFFFFF;
+    float: left;
+    font-size: 17px;
+    margin-left: 12px;
+    margin-top: 7px;
+    
+}
+.thongbao 
+{
+    margin-bottom: 20px;
+}
+.img_big 
+{
+    width: 100%;
+
+}
+.hotnews-detail
+{
+    
+    border-bottom: 1.5px ridge ;
+}
+.image src
+{
+    width: 50%;
+}
+.lienket a {
+    display: contents;
+}
+.lienket
+{
+    display: flex;
+    flex-direction: column; 
+}
+footer
+{
+    margin-top: 40px;
+    margin-bottom: 0;
+    height: 70px;
+    background-color:  #fa418b;
+    text-align: center;
+    
+}
+.infor
+{
+    padding-top: 10px;
+}
+.img-top3
+{
+    width: 100%;
+}
+.t3
+{
+    margin-top: 20px;
+    border-bottom: 1.5px ridge ;
+}
+#hoatdong1
+{
+    border-bottom: solid pink 1px;
+   
+    padding-left: 0;
+}
+.col-md-6
+{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.lienket img
+{
+    width: 100%;
+}
+.tit_cpanel
+{
+    text-align: center;
+}
+.tinhoc img
+{
+    width: 100%;
+    height: auto;
+}
+.nd_thongbao a
+{
+color: #000;
+}
+.menutitle a 
+{
+    color: #000;
+}
+.right .thongbao {
+    background: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    -webkit-box-shadow: 1px 1px 1px 0px #999;
+    box-shadow: 1px 1px 1px 0px #999;
+    margin-bottom: 10px;
+}
+.right section {
+    background: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    -webkit-box-shadow: 1px 1px 1px 0px #999;
+    box-shadow: 1px 1px 1px 0px #999;
+    margin-bottom: 10px;
+}
+.right .tit_thongbao {
+    background: url(/imgs/tit_dieukiendayvahoc.png) no-repeat scroll 0 0 transparent ;
+}
+.right .tit_thongbao {
+    height: 35px;
+}
+.right .tit_thongbao h4 {
+    color: #FFFFFF;
+    font-size: 15px;
+
+
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+    top: 12px;
+}
+.left .tit_danhmuc {
+    background: url(/imgs/danhmuc.png) no-repeat top center ;
+    border-bottom: solid white 1px;
+    width: 100%;
+    height: 58px;
+    margin-left: 0;
+}
+.left .tit_danhmuc h4 {
+    color: #0A93F4;
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+    top: 22px;
+    
+}
+.tit_thuvien
+{
+   
+    border-bottom: solid white 1px;
+    height: 59px;
+    margin-left: 0;
+}
+.left .tit_thuvien h4
+{
+    color: #0A93F4;
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+    top: 22px;
+}
+.tit_cpanel 
+{
+    background: url(/imgs/cpanel.png) no-repeat top center ;
+    border-bottom: solid white 1px;
+    height: 58px;
+    margin-left: 0;
+}
+.tit_cpanel h4
+{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.cpanel .br .danhmuc
+{
+    background-color: white;
+}
+.thanhvien
+{
+    background-color: #fff;
+}
+.tit_lichcongtac
+{
+    height: 40px;
+    width: 100%;
+    background: url(/imgs/lichcongtac.png) ;
+
+}
+.right .tit_lichcongtac h4 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+    top: 14px;
+}
+.col-md-6 img 
+{
+    width: 100%;
+    margin-top: 8px;
+}
+.left_content ul
+{
+    padding-left: 0;
+}
+.carousel-control-prev
+{
+    position: absolute;
+    top: 230px;
+}
+.carousel-control-next
+{
+    position: absolute;
+    top: 240px;
+}
+.container1
+{
+    display: flex;
+    justify-items: center;
+}
+.card
+{
+   margin-top: 10px;
+}
